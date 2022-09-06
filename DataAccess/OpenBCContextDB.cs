@@ -12,5 +12,7 @@ namespace api_ejercicio.DataAccess
 
         //Agrego DbSets
         public DbSet<User>? Users { get; set; }
+
+        public DbSet<Curso>? Cursos { get; set; }
     }
 }
